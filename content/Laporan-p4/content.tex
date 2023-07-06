@@ -1,0 +1,72 @@
+\newpage
+\setcounter{section}{0}
+\renewcommand{\thesection}{\arabic{section}}
+
+\begin{center}
+    \Huge
+    \textbf{Modul 4}
+    
+    Konfigurasi VPN(Virtual Private Network) PPTP pada Mikrotik
+
+\end{center}
+
+
+\section{pendahuluan}
+
+
+\section{Tujuan Praktikum}
+
+Mengetahui cara menggunakan dan mengkonfigurasi VPN PPTP pada router mikrotik.
+
+\section{Alat dan Bahan}
+
+Berikut adalah Alat dan Bahan untuk praktikum:
+
+\begin{enumerate}
+    \item 2 Cloud Core Router
+    \item 3 Kabel UTP (LAN)
+    \item 3 Laptop
+    \item Software Winbox
+\end{enumerate}
+
+\section{Topologi}
+
+
+\section{Langkah Percobaan}
+\begin{enumerate}
+    \item Sambungkan PC dan router mikrotik sesuai dengan topologi
+    \item Matikan firewall di laptop
+    \item Masuk ke aplikasi Winbox
+    \item Pada bagian Neighbour, check apakah ada IP 0000 identity mikrotik
+    \item Reset mikrotik ke 0000
+    \item Lalu tekan connect
+    \item Lakukan konfigurasi DHCP agar dapat terhubung dengan ISP, pilih menu IP \texttt{\text>} DHCP Client \texttt{\text>} (+) \texttt{\text>} Interface : ether 1 (yang terhubung pada ISP)
+    \item Kemudian secara otomatis akan didapatkan IP dari ISP
+    \item Lalu pilih menu IP \texttt{\text>} Firewall \texttt{\text>} NAT \texttt{\text>} Chain : srcnat, Out. Interface : ether 1
+    \item Kemudian pilih menu IP \texttt{\text>} Firewall \texttt{\text>} NAT \texttt{\text>} Action : masquerade
+    \item Setelah itu atur routes untuk ether 1 secara static, pilih menu IP \texttt{\text>} Routes \texttt{\text>} (+) \texttt{\text>} Dst Address : 0.0.0.0/0, Gateway : (gateway IP address yang telah diberikan ISP) \texttt{\text>} Apply
+    \item Setelah terlihat status “reachable” pada Route List, kemudian atur DNS
+    \item Untuk mengaktifkan PPTP server, pilih menu PPP \texttt{\text>} Interface \texttt{\text>} PPTP Server \texttt{\text>} Default Profile : default encryption
+    \item Kemudian buatlah secret untuk mengakses server, pilih menu New PPP Secret \texttt{\text>} Profile : default encryption , Local Address : (address PPTP server) , Remote Address : (IP yang akan diberikan ke client)
+    \item Isikan nama dan password, pastikan nama dan password mudah untuk diingat
+    \item Lalu lakukan konfigurasi client PPTP, pilih menu PPTP Client \texttt{\text>} New Interface \texttt{\text>} Connect To : (IP public server yang dituju)
+    \item Kemudian pada kolom User dan Password, masukkan nama dan password sesuai secret yang sudah dibuat
+    \item Setelah itu lakukan static routing, pilih menu New Route \texttt{\text>} Dst. Address : (jaringan local router lawan) , Gateway : (IP PPTP tunnel pada router lawan)
+    \item Untuk melakukan remote client, perlu dibuat secret baru dengan cara yang sama dengan sebelumnya
+    \item Agar remote client dapat terhubung ke server, perlu dilakukan setup connection pada sisi client
+    \item Pergi ke setting dan pilih menu Network and Sharing Center \texttt{\text>} Set up new connection or network \texttt{\text>} Connect to a workplace \texttt{\text>} Use My Internet Connection (VPN) \texttt{\text>} Internet address : (IP public server yang dituju) \texttt{\text>} Next
+    \item Kemudian masukkan nama dan password sesuai secret yang sudah dibuat untuk remote client
+    
+\end{enumerate}
+
+\section{Hasil Percobaan}
+
+
+\section{Kesimpulan}
+
+
+\section{Tugas modul}
+
+\begin{enumerate}
+    \item 
+\end{enumerate}
