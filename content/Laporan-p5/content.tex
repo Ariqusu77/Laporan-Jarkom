@@ -47,26 +47,71 @@ berikut adalah topologi yang digunakan :
 
 \section{Langkah Percobaan}
 \begin{enumerate}
-    \item Sambungkan PC dan router mikrotik sesuai dengan topologi
-    \item Matikan firewall di laptop
-    \item Masuk ke aplikasi Winbox
-    \item Pada bagian Neighbour, check apakah ada IP 0000 identity mikrotik
-    \item Reset mikrotik ke 0000
-    \item Lalu tekan connect
+    \item Persiapan Awal
     
-    \begin{center}
-        \includegraphics[width=0.7\textwidth]{image/Winbox-interface.png}    
+    \begin{enumerate}
+        \item Sambungkan PC dan router mikrotik sesuai dengan topologi
+        \item Matikan firewall di laptop
+        \item Masuk ke aplikasi Winbox
+        \item Pada bagian Neighbour, check apakah ada IP 0000 identity mikrotik
+        \item Reset mikrotik ke 0000
+        \item Lalu tekan connect
+    
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/Winbox-interface.png}    
         
-        figure.2 WinBox interface
-    \end{center}
+            figure.2 WinBox interface
+        \end{center}
 
-    \item Aktifkan IPv6 pada kedua router, pilih menu System \texttt{\text>} Packages \texttt{\text>} ipv6 [Enable]
-    \item Kemudian reboot router, melalui System \texttt{\text>} Reboot
-    \item Pada bagian Neighbour, check apakah ada IP Address versi 6
-    \item Lalu tekan connect
-    \item Konfigurasi IPv6 pada kedua router, pilih menu IPv6 \texttt{\text>} Addresses \texttt{\text>} (+) \texttt{\text>} Address : (IP address versi 6 pada router) , Interface : (Interface yang tersambung ke laptop) , Advertise [Check]
-    \item Selanjutnya lakukan static routing pada masing-masing router (sama seperti melaku\\kan routing IP versi 4), pilih menu IPv6 \texttt{\text>} Routes \texttt{\text>} (+) \texttt{\text>} Dst. Address : (IP versi 6 jaringan lawan) , Gateway : (gunakan link local IP address yang menghubungkan antara kedua router)
-    \item Setelah itu uji koneksi antara kedua jaringan dengan melakukan test ping dari router (sama seperti melakukan test ping pada IP versi 4)
+        \item Aktifkan IPv6 pada kedua router, pilih menu System \texttt{\text>} Packages \texttt{\text>} ipv6 [Enable]
+        \item Kemudian reboot router, melalui System \texttt{\text>} Reboot
+        \item Pada bagian Neighbour, check apakah ada IP Address versi 6
+        \item Lalu tekan connect
+        \item Lakukan konfigurasi DHCP agar dapat terhubung dengan ISP, pilih menu IP \texttt{\text>} DHCP Client \texttt{\text>} (+) \texttt{\text>} Interface : ether 1 (yang terhubung pada ISP)
+        \item Kemudian secara otomatis akan didapatkan IP dari ISP
+    
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P5/dhcpclient.png}    
+        
+            figure.3 DHCP Client
+        \end{center}
+    \end{enumerate}
+    
+    \item Static v6 Routing
+    
+    \begin{enumerate}
+        \item Konfigurasi IPv6 pada kedua router, pilih menu IPv6 \texttt{\text>} Addresses \texttt{\text>} (+) \texttt{\text>} Address : (IP address versi 6 pada router) , Interface : (Interface yang tersambung ke laptop) , Advertise [Check]
+    
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P5/static/static-addresslist.png}    
+            
+            figure.4 Address List
+        \end{center}
+    
+        \item Selanjutnya lakukan static routing pada masing-masing router (sama seperti melaku\\kan routing IP versi 4), pilih menu IPv6 \texttt{\text>} Routes \texttt{\text>} (+) \texttt{\text>} Dst. Address : (IP versi 6 jaringan lawan) , Gateway : (gunakan link local IP address yang menghubungkan antara kedua router)
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P5/static/static-routing.png}    
+            
+            figure.5 Static v6 Routing
+        \end{center}
+    
+        \item Setelah itu uji koneksi antara kedua jaringan dengan melakukan test ping dari router (sama seperti melakukan test ping pada IP versi 4)
+    \end{enumerate}
+
+    \item Dynamic v6 Routing 
+    \begin{enumerate}
+        \item Konfigurasi IPv6 pada kedua router, pilih menu IPv6 \texttt{\text>} Addresses \texttt{\text>} (+) \texttt{\text>} Address : (IP address versi 6 pada router) , Interface : (Interface yang tersambung ke laptop) , Advertise [Check]
+    
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P5/static/static-addresslist.png}    
+            
+            figure.4 Address List
+        \end{center}
+
+        
+    \end{enumerate}
+    
     
 \end{enumerate}
 

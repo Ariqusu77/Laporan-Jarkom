@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1046,50 +1046,71 @@ l.48 \section{Langkah Percobaan}
                                  [24 <./image/P5/Topologi.png>]
 File: image/Winbox-interface.png Graphic file (type png)
 <use image/Winbox-interface.png>
-Package pdftex.def Info: image/Winbox-interface.png  used on input line 58.
+Package pdftex.def Info: image/Winbox-interface.png  used on input line 61.
 (pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+<image/P5/dhcpclient.png, id=407, 530.58224pt x 278.84175pt>
+File: image/P5/dhcpclient.png Graphic file (type png)
+<use image/P5/dhcpclient.png>
+Package pdftex.def Info: image/P5/dhcpclient.png  used on input line 74.
+(pdftex.def)             Requested size: 318.66948pt x 167.47652pt.
+ [25]
+<image/P5/static/static-addresslist.png, id=426, 325.81725pt x 254.1495pt>
+File: image/P5/static/static-addresslist.png Graphic file (type png)
+<use image/P5/static/static-addresslist.png>
+Package pdftex.def Info: image/P5/static/static-addresslist.png  used on input line 86.
+(pdftex.def)             Requested size: 318.66948pt x 248.57619pt.
+<image/P5/static/static-routing.png, id=427, 434.8245pt x 263.18324pt>
+File: image/P5/static/static-routing.png Graphic file (type png)
+<use image/P5/static/static-routing.png>
+Package pdftex.def Info: image/P5/static/static-routing.png  used on input line 94.
+(pdftex.def)             Requested size: 318.66948pt x 192.88116pt.
+ [26 <./image/P5/dhcpclient.png> <./image/P5/static/static-addresslist.png>]
+File: image/P5/static/static-addresslist.png Graphic file (type png)
+<use image/P5/static/static-addresslist.png>
+Package pdftex.def Info: image/P5/static/static-addresslist.png  used on input line 107.
+(pdftex.def)             Requested size: 318.66948pt x 248.57619pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 \section{Hasil Percobaan}
-                              
+l.118 \section{Hasil Percobaan}
+                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \section{Kesimpulan}
-                         
-Overfull \hbox (14.08575pt too wide) in paragraph at lines 78--79
+l.121 \section{Kesimpulan}
+                          
+Overfull \hbox (14.08575pt too wide) in paragraph at lines 123--124
 \OT1/cmr/m/n/12 IPv6 meru-pakan teknologi baru pengem-ban-gan dari IPv4 yang di-gu-nakan un-tuk menigkatkan
  []
 
-[25]
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \section{Tugas modul}
-                          
-Overfull \hbox (2.7923pt too wide) in paragraph at lines 87--88
+l.125 \section{Tugas modul}
+                            [27 <./image/P5/static/static-routing.png>]
+Overfull \hbox (2.7923pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/12 babkan pe-nun-daan dalam pen-gi-r-i-man data. Be-ber-apa fak-tor yang da-pat menye-
  []
 
-[26]) [27] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
+[28]) [29] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
 Package rerunfilecheck Info: File `"Kelompok 13_Laporan Praktikum Jarkom".out' has not changed.
 (rerunfilecheck)             Checksum: 1D1ECE33763A0F5D0B9304E670506F3F;4187.
  ) 
 Here is how much of TeX's memory you used:
- 28306 strings out of 476097
- 570901 string characters out of 5795135
- 1861845 words of memory out of 5000000
- 47966 multiletter control sequences out of 15000+600000
+ 28339 strings out of 476097
+ 571830 string characters out of 5795135
+ 1863845 words of memory out of 5000000
+ 47987 multiletter control sequences out of 15000+600000
  513966 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,6n,133p,1264b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,133p,1264b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (28 pages, 1827572 bytes).
+Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (30 pages, 1854371 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 188 named destinations out of 1000 (max. 500000)
- 437 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 196 named destinations out of 1000 (max. 500000)
+ 452 words of extra memory for PDF output out of 10000 (max. 10000000)
 
