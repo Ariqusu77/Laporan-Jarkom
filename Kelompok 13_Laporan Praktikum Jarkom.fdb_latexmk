@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1688740009 "d:/project/my_latex_project/Laporan_Jarkom/Kelompok 13_Laporan Praktikum Jarkom.tex" "Kelompok 13_Laporan Praktikum Jarkom.pdf" "Kelompok 13_Laporan Praktikum Jarkom" 1688740012 0
-  "Kelompok 13_Laporan Praktikum Jarkom.aux" 1688740012 4935 1faea712206cd34739592e3747bcf756 "pdflatex"
-  "Kelompok 13_Laporan Praktikum Jarkom.out" 1688740012 4187 1d1ece33763a0f5d0b9304e670506f3f "pdflatex"
+["pdflatex"] 1688741105 "d:/project/my_latex_project/Laporan_Jarkom/Kelompok 13_Laporan Praktikum Jarkom.tex" "Kelompok 13_Laporan Praktikum Jarkom.pdf" "Kelompok 13_Laporan Praktikum Jarkom" 1688741108 0
+  "Kelompok 13_Laporan Praktikum Jarkom.aux" 1688741108 4935 16400f5b639aab6c95d6fb067dcc0758 "pdflatex"
+  "Kelompok 13_Laporan Praktikum Jarkom.out" 1688741108 4187 1d1ece33763a0f5d0b9304e670506f3f "pdflatex"
   "Kelompok 13_Laporan Praktikum Jarkom.tex" 1688651360 775 15969205e8d75a60d74ed31ba7d79860 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1685095585 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1685094518 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -190,7 +190,7 @@
   "content/Laporan-p2/content.tex" 1688738235 5507 6fbc0b503a420b9481ec266b5b1723b5 ""
   "content/Laporan-p3/content.tex" 1688738368 5000 22a47f506b65cf06e6076147c31a7a0e ""
   "content/Laporan-p4/content.tex" 1688738677 5836 75f04ce755a726c22b0d6bfed5b2e30b ""
-  "content/Laporan-p5/content.tex" 1688740007 8889 bd510e7be402c6796b4496492be12fed ""
+  "content/Laporan-p5/content.tex" 1688741104 9999 978214ec8983cde19a31e1c6e11ac827 ""
   "content/cover.tex" 1688625394 802 c5e3a5ce955c9d4c8ac26ac38fef9a11 ""
   "d:/project/my_latex_project/Laporan_Jarkom/Kelompok 13_Laporan Praktikum Jarkom.tex" 1688651360 775 15969205e8d75a60d74ed31ba7d79860 ""
   "image/P1/PoM/1-apbridgerouter.png" 1688734983 42714 54e05b427b853642ab1c735e92add010 ""
@@ -216,8 +216,12 @@
   "image/P4/Topologi.png" 1688650230 29399 47731d507a476bd41ddfc4d665333cca ""
   "image/P5/Topologi.png" 1688651580 17070 6932c4c620fccfe96c629973956065d3 ""
   "image/P5/dhcpclient.png" 1688739265 13019 a947010e09b9e93a5fa839fe0a6ed831 ""
+  "image/P5/dynamic/dynamic-ripng.png" 1688739429 10229 6829aa0465f0570528be8a43ef1519b0 ""
+  "image/P5/dynamic/dynamic-routing.png" 1688739409 18081 40d01ccd8feda138e0aff8224870a062 ""
+  "image/P5/dynamic/dynamic-test.png" 1688739449 49499 3ba87b097c7d777550a65542bca8d955 ""
   "image/P5/static/static-addresslist.png" 1688739364 18198 626932f02349c8f883081cd6482041c6 ""
   "image/P5/static/static-routing.png" 1688739384 14933 3c31501c3baac23b3e00b78b4d28e701 ""
+  "image/P5/static/static-test.png" 1688739314 45273 e4749d31e9e6b1feaeb38394e7525a49 ""
   "image/Winbox-interface.png" 1688721770 27386 fcb8f3399d57c52dfc4ee1daf7146f52 ""
   "image/its-logo.png" 1686114468 548449 2253a735ee7b2b11eed49403b3ba5b5d ""
   (generated)
