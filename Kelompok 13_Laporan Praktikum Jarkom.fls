@@ -491,16 +491,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
-INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT Kelompok 13_Laporan Praktikum Jarkom.out
-OUTPUT Kelompok 13_Laporan Praktikum Jarkom.pdf
-INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out
-INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out
 OUTPUT Kelompok 13_Laporan Praktikum Jarkom.out
+OUTPUT Kelompok 13_Laporan Praktikum Jarkom.pdf
 INPUT ./content/cover.tex
 INPUT content/cover.tex
 INPUT ./content/cover.tex
@@ -519,23 +511,38 @@ INPUT content/Laporan-p1/content.tex
 INPUT ./content/Laporan-p1/content.tex
 INPUT content/Laporan-p1/content.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./content/Laporan-p2/content.tex
-INPUT content/Laporan-p2/content.tex
-INPUT ./content/Laporan-p2/content.tex
-INPUT content/Laporan-p2/content.tex
-INPUT ./content/Laporan-p3/content.tex
-INPUT content/Laporan-p3/content.tex
-INPUT ./content/Laporan-p3/content.tex
-INPUT content/Laporan-p3/content.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT ./content/Laporan-p2/content.tex
+INPUT content/Laporan-p2/content.tex
+INPUT ./content/Laporan-p2/content.tex
+INPUT content/Laporan-p2/content.tex
+INPUT ./content/Laporan-p3/content.tex
+INPUT content/Laporan-p3/content.tex
+INPUT ./content/Laporan-p3/content.tex
+INPUT content/Laporan-p3/content.tex
+INPUT ./image/P3/Topologi.png
+INPUT ./image/P3/Topologi.png
+INPUT image/P3/Topologi.png
+INPUT ./image/P3/Topologi.png
+INPUT ./image/P3/Topologi.png
 INPUT ./content/Laporan-p4/content.tex
 INPUT content/Laporan-p4/content.tex
 INPUT ./content/Laporan-p4/content.tex
 INPUT content/Laporan-p4/content.tex
+INPUT ./image/P4/Topologi.png
+INPUT ./image/P4/Topologi.png
+INPUT image/P4/Topologi.png
+INPUT ./image/P4/Topologi.png
+INPUT ./image/P4/Topologi.png
 INPUT ./content/Laporan-p5/content.tex
 INPUT content/Laporan-p5/content.tex
 INPUT ./content/Laporan-p5/content.tex
 INPUT content/Laporan-p5/content.tex
+INPUT ./image/P5/Topologi.png
+INPUT ./image/P5/Topologi.png
+INPUT image/P5/Topologi.png
+INPUT ./image/P5/Topologi.png
+INPUT ./image/P5/Topologi.png
 INPUT Kelompok 13_Laporan Praktikum Jarkom.aux
 INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out
 INPUT ./Kelompok 13_Laporan Praktikum Jarkom.out

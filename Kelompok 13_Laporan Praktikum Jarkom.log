@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  6 JUL 2023 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  6 JUL 2023 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,15 +696,15 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.33032pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -723,59 +723,95 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 22.
-(./Kelompok 13_Laporan Praktikum Jarkom.out) (./Kelompok 13_Laporan Praktikum Jarkom.out)
 \@outlinefile=\write4
 \openout4 = `"Kelompok 13_Laporan Praktikum Jarkom.out"'.
 
- (./content/cover.tex
-<image/its-logo.png, id=132, 1027.84pt x 1027.84pt>
+(./content/cover.tex
+<image/its-logo.png, id=7, 1027.84pt x 1027.84pt>
 File: image/its-logo.png Graphic file (type png)
 <use image/its-logo.png>
 Package pdftex.def Info: image/its-logo.png  used on input line 9.
-(pdftex.def)             Requested size: 170.71393pt x 170.69981pt.
+(pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
  [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image/its-logo.png>]) (./content/Laporan-p1/content.tex
+
+LaTeX Warning: File `image/P1/Topologi.png' not found on input line 57.
+
+
+./content/Laporan-p1/content.tex:57: Package pdftex.def Error: File `image/P1/Topologi.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...idth=0.7\textwidth]{image/P1/Topologi.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \end{enumerate}
-                     [1]) (./content/Laporan-p2/content.tex [2]
+l.59     f
+          igure.1 Topologi [1]) (./content/Laporan-p2/content.tex [2]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \section{pendahuluan}
                           
+Overfull \hbox (5.74277pt too wide) in paragraph at lines 23--27
+[]\OT1/cmr/m/n/12 Sebelum mem-u-lai pem-ba-hasan rout-ing, pent-ing un-tuk mema-hami kon-sep dasar jaringan
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 \section{Tujuan Praktikum}
+l.36 \section{Tujuan Praktikum}
                                
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \section{Alat dan Bahan}
+l.39 \section{Alat dan Bahan}
                              
 pdfTeX warning (ext4): destination with the same identifier (name{section.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \section{Topologi}
+l.42 \section{Topologi}
                        
+
+LaTeX Warning: File `image/P2/Topologi.png' not found on input line 47.
+
+
+./content/Laporan-p2/content.tex:47: Package pdftex.def Error: File `image/P2/Topologi.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...idth=0.7\textwidth]{image/P2/Topologi.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3]
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \section{Langkah Percobaan}
+l.53 \section{Langkah Percobaan}
                                 
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \section{Hasil Percobaan}
+l.58 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \section{Kesimpulan}
-                         ) (./content/Laporan-p3/content.tex [3]
+l.61 \section{Kesimpulan}
+                         ) (./content/Laporan-p3/content.tex [4]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -796,31 +832,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.32 \section{Topologi}
                        
+<image/P3/Topologi.png, id=47, 317.988pt x 193.9245pt>
+File: image/P3/Topologi.png Graphic file (type png)
+<use image/P3/Topologi.png>
+Package pdftex.def Info: image/P3/Topologi.png  used on input line 37.
+(pdftex.def)             Requested size: 318.66948pt x 194.35011pt.
+ [5 <./image/P3/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \section{Langkah Percobaan}
-                                 [4]
+l.43 \section{Langkah Percobaan}
+                                
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \section{Hasil Percobaan}
+l.63 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \section{Kesimpulan}
-                         
-Overfull \hbox (27.82893pt too wide) in paragraph at lines 60--61
-\OT1/cmr/m/n/12 Pembatasan band-width su-atu jaringan da-pat di-lakukan den-gan meng-gu-nakan QoS(Simple
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 \section{Tugas modul}
-                           [5]) (./content/Laporan-p4/content.tex [6]
+l.66 \section{Kesimpulan}
+                          [6]) (./content/Laporan-p4/content.tex [7]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -831,11 +863,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.2}) ha
                    \relax 
 l.17 \section{Tujuan Praktikum}
                                
-Overfull \hbox (11.58626pt too wide) in paragraph at lines 19--20
-\OT1/cmr/m/n/12 Mengetahui cara meng-gu-nakan dan mengkon-fig-urasi VPN PPTP pada router mikrotik. 
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -846,26 +873,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.32 \section{Topologi}
                        
+<image/P4/Topologi.png, id=87, 388.45125pt x 190.91325pt>
+File: image/P4/Topologi.png Graphic file (type png)
+<use image/P4/Topologi.png>
+Package pdftex.def Info: image/P4/Topologi.png  used on input line 37.
+(pdftex.def)             Requested size: 318.66948pt x 156.61978pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \section{Langkah Percobaan}
-                                 [7]
+l.42 \section{Langkah Percobaan}
+                                 [8 <./image/P4/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \section{Hasil Percobaan}
+l.69 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 \section{Kesimpulan}
+l.72 \section{Kesimpulan}
                          
 pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 \section{Tugas modul}
-                          ) (./content/Laporan-p5/content.tex [8]
+l.75 \section{Tugas modul}
+                           [9]
+Overfull \hbox (2.06802pt too wide) in paragraph at lines 88--89
+[]\OT1/cmr/m/n/12 Solusi al-ter-natif PPTP di-antaranya yaitu den-gan meng-gu-nakan pro-tokol VPN berba-
+ []
+
+) (./content/Laporan-p5/content.tex [10]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -874,54 +912,66 @@ l.14 \section{pendahuluan}
 pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 \section{Tujuan Praktikum}
+l.18 \section{Tujuan Praktikum}
                                
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \section{Alat dan Bahan}
+l.25 \section{Alat dan Bahan}
                              
 pdfTeX warning (ext4): destination with the same identifier (name{section.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \section{Topologi}
+l.37 \section{Topologi}
                        
+<image/P5/Topologi.png, id=134, 367.3725pt x 151.767pt>
+File: image/P5/Topologi.png Graphic file (type png)
+<use image/P5/Topologi.png>
+Package pdftex.def Info: image/P5/Topologi.png  used on input line 42.
+(pdftex.def)             Requested size: 318.66948pt x 131.65642pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \section{Langkah Percobaan}
-                                
+l.48 \section{Langkah Percobaan}
+                                 [11 <./image/P5/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \section{Hasil Percobaan}
+l.53 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \section{Kesimpulan}
+l.56 \section{Kesimpulan}
                          
 pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \section{Tugas modul}
-                          ) [9] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
-Package rerunfilecheck Info: File `"Kelompok 13_Laporan Praktikum Jarkom".out' has not changed.
-(rerunfilecheck)             Checksum: B2C73058DE5E96D2D0694C808FCBC314;4289.
+l.59 \section{Tugas modul}
+                          ) [12] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
+
+Package rerunfilecheck Warning: File `"Kelompok 13_Laporan Praktikum Jarkom".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Kelompok 13_Laporan Praktikum Jarkom".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  1D1ECE33763A0F5D0B9304E670506F3F;4187.
  ) 
 Here is how much of TeX's memory you used:
- 28003 strings out of 476097
- 563611 string characters out of 5795135
- 1861845 words of memory out of 5000000
- 47805 multiletter control sequences out of 15000+600000
+ 28102 strings out of 476097
+ 565922 string characters out of 5795135
+ 1862845 words of memory out of 5000000
+ 47875 multiletter control sequences out of 15000+600000
  513966 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,133p,738b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,133p,961b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (10 pages, 623321 bytes).
+Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (13 pages, 696196 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
