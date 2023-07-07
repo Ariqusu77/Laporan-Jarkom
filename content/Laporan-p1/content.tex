@@ -75,7 +75,7 @@ berikut adalah topologi yang digunakan :
         \begin{center}
             \includegraphics[width=0.7\textwidth]{image/Winbox-interface.png}    
             
-            figure.1 Topologi
+            figure.2 WinBox interface
         \end{center}
 
     \end{enumerate}
@@ -83,26 +83,165 @@ berikut adalah topologi yang digunakan :
     \item Wireless Point to Point
     
     \begin{enumerate}
-        \item 
+        \item Pertama lakukan konfigurasi IP address pada masing-masing router, pilih menu IP \texttt{\text>} Address \texttt{\text>} (+) \texttt{\text>} Address : (IP Address pada router) , Interface : (interface yang tersambung)
+        disini wlan di set sebagai network 35.35.35.0/24
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/PoP/1-Addressconf.png}    
+            
+            figure.3 Address Configuration
+        \end{center}
+
+        \item konfigurasi Router satu sebagai Bridge, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Bridge
+        \item set SSID sesuai dengan keinginan
+        
+        disini SSID diset sebagai : CobaHubungkesini
+        
+        \begin{center}
+            \includegraphics[width=0.5\textwidth]{image/P1/PoP/2-routerbridge.png}    
+            
+            figure.4 Bridge Router Configuration
+        \end{center}
+
+        \item konfigurasi Router dua sebagai Station, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Station
+        \item hubungkan dengan SSID pada router satu, di window yang sama pilih scan.. \texttt{\text>} SSID : (SSID milik router satu) \texttt{\text>} connect
+
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/PoP/3-routerstation.jpg}    
+            
+            figure.5 Station Router Configuration
+        \end{center}
+
+        \item konfigurasi selesai, dapat dilakukan tes ping
     \end{enumerate}
 
     \item Wireless Point to Multipoint
     
     \begin{enumerate}
-        \item 
+        \item Pertama lakukan konfigurasi IP address pada masing-masing router, pilih menu IP \texttt{\text>} Address \texttt{\text>} (+) \texttt{\text>} Address : (IP Address pada router) , Interface : (interface yang tersambung)
+        disini wlan di set sebagai network 35.35.35.0/24
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/PoP/1-Addressconf.png}    
+            
+            figure.6 Address Configuration
+        \end{center}
+
+        \item konfigurasi Router satu sebagai ApBridge, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Ap Bridge
+        \item set SSID sesuai dengan keinginan
+        
+        disini SSID diset sebagai : CobaHubungkesini
+        
+        \begin{center}
+            \includegraphics[width=0.5\textwidth]{image/P1/PoM/1-apbridgerouter.png}    
+            
+            figure.7 Ap Bridge Router Configuration
+        \end{center}
+
+        \item konfigurasi Router dua sebagai Station, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Station
+        \item hubungkan dengan SSID pada router satu, di window yang sama pilih scan.. \texttt{\text>} SSID : (SSID milik router satu) \texttt{\text>} connect
+
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/PoM/2-stationrouterconnect.png}    
+            
+            figure.8 Station Router Connect
+        \end{center}
+
+        \item konfigurasi selesai, dapat dilakukan tes ping 
     \end{enumerate}
 
     \item Wireless Bridging
     
     \begin{enumerate}
-        \item 
+        \item Pertama lakukan konfigurasi IP address pada masing-masing router, pilih menu IP \texttt{\text>} Address \texttt{\text>} (+) \texttt{\text>} Address : (IP Address pada router) , Interface : (interface yang tersambung)
+        disini wlan di set sebagai network 35.35.35.0/24
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/PoP/1-Addressconf.png}    
+            
+            figure.9 Address Configuration
+        \end{center}
+
+        \item konfigurasi Router satu sebagai Bridge, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Bridge
+        \item set SSID sesuai dengan keinginan
+        
+        disini SSID diset sebagai : CobaHubungkesini
+        
+        \begin{center}
+            \includegraphics[width=0.5\textwidth]{image/P1/PoP/2-routerbridge.png}    
+            
+            figure.10 Bridge Router Configuration
+        \end{center}
+
+        \item konfigurasi Router dua sebagai Station, pilih menu Wireless \texttt{\text>} Wlan 1 \texttt{\text>} Mode : Station Pseudobridge
+        \item hubungkan dengan SSID pada router satu, pada window yang sama pilih scan.. \texttt{\text>} SSID : (SSID milik router satu) \texttt{\text>} connect
+
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/Wireless/1-Pseudobridgeconf.jpg}    
+            
+            figure.11 Station Router Connect
+        \end{center}
+
+        \item buat bridge baru untuk untuk interface, pilih menu Bridge \texttt{\text>} (+) \texttt{\text>} nama : (sesuai keinginan)
+        \item hubungkan bridge dengan port, pada window yang sama pilih port \texttt{\text>} (+) \texttt{\text>} interface : wlan1, bridge : (brigde yang sama dengan tadi)
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/Wireless/4-Bridgelist.png}    
+            
+            figure.12 Station Router Connect
+        \end{center}
+
+        \item set ip laptop agar sesuai dengan ip network yang terhubung
+        
+        \begin{center}
+            \includegraphics[width=0.7\textwidth]{image/P1/Wireless/3-setlaptopip.jpg}    
+            
+            figure.13 set ip laptop
+        \end{center}
+
+        \item konfigurasi selesai, dapat dilakukan tes ping
     \end{enumerate}
     
 \end{enumerate}
 
 \section{Hasil Percobaan}
 
+\begin{enumerate}
+    \item Point to Point Experiment
+    
+    ping dari bridge router
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{image/P1/PoP/5-testpingbrigde.png}    
+        
+        figure.14 Ping Station Router
+    \end{center}
 
+    ping dari station router 
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{image/P1/PoP/4-testping1station.png}    
+        
+        figure.15 Ping Bridge Router
+    \end{center}
+
+    \item Point to Multipoint Experiment
+    
+    tes Ping dari Station Router 
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{image/P1/PoM/3-testping.png}    
+        
+        figure.16 test Ping Station Router
+    \end{center}
+
+    \item Wireless Bridge Experiment
+    
+    tes ping dari laptop
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{image/P1/Wireless/5-laptoptestping.png}    
+        
+        figure.17 test Ping Laptop
+    \end{center}
+    
+\end{enumerate}
 
 \section{Kesimpulan}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,12 +747,92 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.60     f
           igure.1 Topologi [1]
-<image/Winbox-interface.png, id=148, 1156.32pt x 650.43pt>
+<image/Winbox-interface.png, id=148, 493.845pt x 410.7345pt>
 File: image/Winbox-interface.png Graphic file (type png)
 <use image/Winbox-interface.png>
 Package pdftex.def Info: image/Winbox-interface.png  used on input line 76.
-(pdftex.def)             Requested size: 318.66948pt x 179.2509pt.
-) (./content/Laporan-p2/content.tex [2 <./image/P1/Topologi.png> <./image/Winbox-interface.png>] [3]
+(pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+<image/P1/PoP/1-Addressconf.png, id=149, 250.536pt x 268.00125pt>
+File: image/P1/PoP/1-Addressconf.png Graphic file (type png)
+<use image/P1/PoP/1-Addressconf.png>
+Package pdftex.def Info: image/P1/PoP/1-Addressconf.png  used on input line 90.
+(pdftex.def)             Requested size: 318.66948pt x 340.8894pt.
+ [2 <./image/P1/Topologi.png> <./image/Winbox-interface.png>]
+<image/P1/PoP/2-routerbridge.png, id=167, 405.9165pt x 492.6405pt>
+File: image/P1/PoP/2-routerbridge.png Graphic file (type png)
+<use image/P1/PoP/2-routerbridge.png>
+Package pdftex.def Info: image/P1/PoP/2-routerbridge.png  used on input line 101.
+(pdftex.def)             Requested size: 227.62206pt x 276.25266pt.
+ [3 <./image/P1/PoP/1-Addressconf.png> <./image/P1/PoP/2-routerbridge.png>]
+<image/P1/PoP/3-routerstation.jpg, id=176, 395.22656pt x 472.01344pt>
+File: image/P1/PoP/3-routerstation.jpg Graphic file (type jpg)
+<use image/P1/PoP/3-routerstation.jpg>
+Package pdftex.def Info: image/P1/PoP/3-routerstation.jpg  used on input line 110.
+(pdftex.def)             Requested size: 318.66948pt x 380.58583pt.
+File: image/P1/PoP/1-Addressconf.png Graphic file (type png)
+<use image/P1/PoP/1-Addressconf.png>
+Package pdftex.def Info: image/P1/PoP/1-Addressconf.png  used on input line 125.
+(pdftex.def)             Requested size: 318.66948pt x 340.8894pt.
+ [4 <./image/P1/PoP/3-routerstation.jpg>]
+<image/P1/PoM/1-apbridgerouter.png, id=186, 396.88275pt x 484.81125pt>
+File: image/P1/PoM/1-apbridgerouter.png Graphic file (type png)
+<use image/P1/PoM/1-apbridgerouter.png>
+Package pdftex.def Info: image/P1/PoM/1-apbridgerouter.png  used on input line 136.
+(pdftex.def)             Requested size: 227.62206pt x 278.05412pt.
+ [5 <./image/P1/PoM/1-apbridgerouter.png>]
+<image/P1/PoM/2-stationrouterconnect.png, id=194, 409.53pt x 454.69875pt>
+File: image/P1/PoM/2-stationrouterconnect.png Graphic file (type png)
+<use image/P1/PoM/2-stationrouterconnect.png>
+Package pdftex.def Info: image/P1/PoM/2-stationrouterconnect.png  used on input line 145.
+(pdftex.def)             Requested size: 318.66948pt x 353.83795pt.
+File: image/P1/PoP/1-Addressconf.png Graphic file (type png)
+<use image/P1/PoP/1-Addressconf.png>
+Package pdftex.def Info: image/P1/PoP/1-Addressconf.png  used on input line 160.
+(pdftex.def)             Requested size: 318.66948pt x 340.8894pt.
+ [6 <./image/P1/PoM/2-stationrouterconnect.png>]
+File: image/P1/PoP/2-routerbridge.png Graphic file (type png)
+<use image/P1/PoP/2-routerbridge.png>
+Package pdftex.def Info: image/P1/PoP/2-routerbridge.png  used on input line 171.
+(pdftex.def)             Requested size: 227.62206pt x 276.25266pt.
+ [7]
+<image/P1/Wireless/1-Pseudobridgeconf.jpg, id=212, 408.77719pt x 475.02469pt>
+File: image/P1/Wireless/1-Pseudobridgeconf.jpg Graphic file (type jpg)
+<use image/P1/Wireless/1-Pseudobridgeconf.jpg>
+Package pdftex.def Info: image/P1/Wireless/1-Pseudobridgeconf.jpg  used on input line 180.
+(pdftex.def)             Requested size: 318.66948pt x 370.33655pt.
+<image/P1/Wireless/4-Bridgelist.png, id=213, 1029.24525pt x 271.0125pt>
+File: image/P1/Wireless/4-Bridgelist.png Graphic file (type png)
+<use image/P1/Wireless/4-Bridgelist.png>
+Package pdftex.def Info: image/P1/Wireless/4-Bridgelist.png  used on input line 189.
+(pdftex.def)             Requested size: 318.66948pt x 83.9096pt.
+<image/P1/Wireless/3-setlaptopip.jpg, id=214, 259.7203pt x 303.38344pt>
+File: image/P1/Wireless/3-setlaptopip.jpg Graphic file (type jpg)
+<use image/P1/Wireless/3-setlaptopip.jpg>
+Package pdftex.def Info: image/P1/Wireless/3-setlaptopip.jpg  used on input line 197.
+(pdftex.def)             Requested size: 318.66948pt x 372.24281pt.
+ [8 <./image/P1/Wireless/1-Pseudobridgeconf.jpg> <./image/P1/Wireless/4-Bridgelist.png>]
+<image/P1/PoP/5-testpingbrigde.png, id=225, 463.13025pt x 270.41025pt>
+File: image/P1/PoP/5-testpingbrigde.png Graphic file (type png)
+<use image/P1/PoP/5-testpingbrigde.png>
+Package pdftex.def Info: image/P1/PoP/5-testpingbrigde.png  used on input line 214.
+(pdftex.def)             Requested size: 318.66948pt x 186.06337pt.
+ [9 <./image/P1/Wireless/3-setlaptopip.jpg> <./image/P1/PoP/5-testpingbrigde.png>]
+<image/P1/PoP/4-testping1station.png, id=233, 470.50781pt x 260.47313pt>
+File: image/P1/PoP/4-testping1station.png Graphic file (type png)
+<use image/P1/PoP/4-testping1station.png>
+Package pdftex.def Info: image/P1/PoP/4-testping1station.png  used on input line 221.
+(pdftex.def)             Requested size: 318.66948pt x 176.4159pt.
+<image/P1/PoM/3-testping.png, id=234, 472.01344pt x 262.73157pt>
+File: image/P1/PoM/3-testping.png Graphic file (type png)
+<use image/P1/PoM/3-testping.png>
+Package pdftex.def Info: image/P1/PoM/3-testping.png  used on input line 230.
+(pdftex.def)             Requested size: 318.66948pt x 177.38023pt.
+<image/P1/Wireless/5-laptoptestping.png, id=235, 887.11424pt x 466.1415pt>
+File: image/P1/Wireless/5-laptoptestping.png Graphic file (type png)
+<use image/P1/Wireless/5-laptoptestping.png>
+Package pdftex.def Info: image/P1/Wireless/5-laptoptestping.png  used on input line 239.
+(pdftex.def)             Requested size: 318.66948pt x 167.44806pt.
+) (./content/Laporan-p2/content.tex [10 <./image/P1/PoP/4-testping1station.png> <./image/P1/PoM/3-testping.png> <./image/P1/Wireless/5-laptoptestping.png>] [11]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -771,34 +851,66 @@ l.36 \section{Tujuan Praktikum}
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \section{Alat dan Bahan}
+l.40 \section{Alat dan Bahan}
                              
 pdfTeX warning (ext4): destination with the same identifier (name{section.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \section{Topologi}
+l.49 \section{Topologi}
                        
-<image/P2/Topologi.png, id=173, 367.3725pt x 151.767pt>
+<image/P2/Topologi.png, id=249, 367.3725pt x 151.767pt>
 File: image/P2/Topologi.png Graphic file (type png)
 <use image/P2/Topologi.png>
-Package pdftex.def Info: image/P2/Topologi.png  used on input line 47.
+Package pdftex.def Info: image/P2/Topologi.png  used on input line 54.
 (pdftex.def)             Requested size: 318.66948pt x 131.65642pt.
-
+ [12]
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \section{Langkah Percobaan}
+l.60 \section{Langkah Percobaan}
                                 
+File: image/Winbox-interface.png Graphic file (type png)
+<use image/Winbox-interface.png>
+Package pdftex.def Info: image/Winbox-interface.png  used on input line 73.
+(pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+ [13 <./image/P2/Topologi.png>]
+<image/P2/static/static-routelist.png, id=272, 521.5485pt x 274.626pt>
+File: image/P2/static/static-routelist.png Graphic file (type png)
+<use image/P2/static/static-routelist.png>
+Package pdftex.def Info: image/P2/static/static-routelist.png  used on input line 88.
+(pdftex.def)             Requested size: 318.66948pt x 167.80237pt.
+<image/P2/static/static-dhcpserver.png, id=273, 621.522pt x 273.4215pt>
+File: image/P2/static/static-dhcpserver.png Graphic file (type png)
+<use image/P2/static/static-dhcpserver.png>
+Package pdftex.def Info: image/P2/static/static-dhcpserver.png  used on input line 96.
+(pdftex.def)             Requested size: 318.66948pt x 140.19408pt.
+<image/P2/dynamic/dynamic-rip.png, id=274, 467.346pt x 251.7405pt>
+File: image/P2/dynamic/dynamic-rip.png Graphic file (type png)
+<use image/P2/dynamic/dynamic-rip.png>
+Package pdftex.def Info: image/P2/dynamic/dynamic-rip.png  used on input line 112.
+(pdftex.def)             Requested size: 318.66948pt x 171.65373pt.
+ [14 <./image/P2/static/static-routelist.png> <./image/P2/static/static-dhcpserver.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \section{Hasil Percobaan}
-                              
+l.124 \section{Hasil Percobaan}
+                               
+<image/P2/static/static-test.jpg, id=289, 982.67125pt x 513.92pt>
+File: image/P2/static/static-test.jpg Graphic file (type jpg)
+<use image/P2/static/static-test.jpg>
+Package pdftex.def Info: image/P2/static/static-test.jpg  used on input line 130.
+(pdftex.def)             Requested size: 318.66948pt x 166.65344pt.
+<image/P2/dynamic/dynamic-test.jpg, id=290, 440.39531pt x 292.09125pt>
+File: image/P2/dynamic/dynamic-test.jpg Graphic file (type jpg)
+<use image/P2/dynamic/dynamic-test.jpg>
+Package pdftex.def Info: image/P2/dynamic/dynamic-test.jpg  used on input line 138.
+(pdftex.def)             Requested size: 318.66948pt x 211.36182pt.
+ [15 <./image/P2/dynamic/dynamic-rip.png> <./image/P2/static/static-test.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \section{Kesimpulan}
-                         ) (./content/Laporan-p3/content.tex [4 <./image/P2/Topologi.png>] [5]
+l.145 \section{Kesimpulan}
+                          ) (./content/Laporan-p3/content.tex [16 <./image/P2/dynamic/dynamic-test.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -819,12 +931,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.32 \section{Topologi}
                        
-<image/P3/Topologi.png, id=184, 317.988pt x 193.9245pt>
+<image/P3/Topologi.png, id=304, 317.988pt x 193.9245pt>
 File: image/P3/Topologi.png Graphic file (type png)
 <use image/P3/Topologi.png>
 Package pdftex.def Info: image/P3/Topologi.png  used on input line 37.
 (pdftex.def)             Requested size: 318.66948pt x 194.35011pt.
- [6 <./image/P3/Topologi.png>]
+ [17 <./image/P3/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -839,7 +951,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7}) ha
 <to be read again> 
                    \relax 
 l.66 \section{Kesimpulan}
-                          [7]) (./content/Laporan-p4/content.tex [8]
+                          [18]) (./content/Laporan-p4/content.tex [19]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -860,7 +972,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.32 \section{Topologi}
                        
-<image/P4/Topologi.png, id=224, 388.45125pt x 190.91325pt>
+<image/P4/Topologi.png, id=344, 388.45125pt x 190.91325pt>
 File: image/P4/Topologi.png Graphic file (type png)
 <use image/P4/Topologi.png>
 Package pdftex.def Info: image/P4/Topologi.png  used on input line 37.
@@ -870,7 +982,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.5}) ha
 <to be read again> 
                    \relax 
 l.42 \section{Langkah Percobaan}
-                                 [9 <./image/P4/Topologi.png>]
+                                 [20 <./image/P4/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -885,12 +997,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.8}) ha
 <to be read again> 
                    \relax 
 l.75 \section{Tugas modul}
-                           [10]
+                           [21]
 Overfull \hbox (2.06802pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 Solusi al-ter-natif PPTP di-antaranya yaitu den-gan meng-gu-nakan pro-tokol VPN berba-
  []
 
-) (./content/Laporan-p5/content.tex [11]
+) (./content/Laporan-p5/content.tex [22]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -911,7 +1023,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.37 \section{Topologi}
                        
-<image/P5/Topologi.png, id=270, 367.3725pt x 151.767pt>
+<image/P5/Topologi.png, id=390, 367.3725pt x 151.767pt>
 File: image/P5/Topologi.png Graphic file (type png)
 <use image/P5/Topologi.png>
 Package pdftex.def Info: image/P5/Topologi.png  used on input line 42.
@@ -921,7 +1033,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.5}) ha
 <to be read again> 
                    \relax 
 l.48 \section{Langkah Percobaan}
-                                 [12 <./image/P5/Topologi.png>]
+                                 [23 <./image/P5/Topologi.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -946,23 +1058,23 @@ Overfull \hbox (2.7923pt too wide) in paragraph at lines 80--81
 \OT1/cmr/m/n/12 babkan pe-nun-daan dalam pen-gi-r-i-man data. Be-ber-apa fak-tor yang da-pat menye-
  []
 
-[13]) [14] [15] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
+[24]) [25] [26] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
 Package rerunfilecheck Info: File `"Kelompok 13_Laporan Praktikum Jarkom".out' has not changed.
 (rerunfilecheck)             Checksum: 1D1ECE33763A0F5D0B9304E670506F3F;4187.
  ) 
 Here is how much of TeX's memory you used:
- 28108 strings out of 476097
- 565286 string characters out of 5795135
+ 28305 strings out of 476097
+ 570894 string characters out of 5795135
  1863845 words of memory out of 5000000
- 47847 multiletter control sequences out of 15000+600000
+ 47966 multiletter control sequences out of 15000+600000
  513966 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,6n,133p,1264b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,133p,1264b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (16 pages, 839832 bytes).
+Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (27 pages, 1826693 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 132 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
