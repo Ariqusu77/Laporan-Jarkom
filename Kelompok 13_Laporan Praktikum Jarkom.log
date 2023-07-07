@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.26)  7 JUL 2023 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -942,15 +942,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.5}) ha
                    \relax 
 l.43 \section{Langkah Percobaan}
                                 
+File: image/Winbox-interface.png Graphic file (type png)
+<use image/Winbox-interface.png>
+Package pdftex.def Info: image/Winbox-interface.png  used on input line 53.
+(pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \section{Hasil Percobaan}
+l.70 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \section{Kesimpulan}
+l.73 \section{Kesimpulan}
                           [18]) (./content/Laporan-p4/content.tex [19]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -983,26 +988,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.5}) ha
                    \relax 
 l.42 \section{Langkah Percobaan}
                                  [20 <./image/P4/Topologi.png>]
+File: image/Winbox-interface.png Graphic file (type png)
+<use image/Winbox-interface.png>
+Package pdftex.def Info: image/Winbox-interface.png  used on input line 52.
+(pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+ [21]
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 \section{Hasil Percobaan}
+l.76 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \section{Kesimpulan}
+l.79 \section{Kesimpulan}
                          
 pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 \section{Tugas modul}
-                           [21]
-Overfull \hbox (2.06802pt too wide) in paragraph at lines 88--89
+l.82 \section{Tugas modul}
+                          
+Overfull \hbox (2.06802pt too wide) in paragraph at lines 95--96
 []\OT1/cmr/m/n/12 Solusi al-ter-natif PPTP di-antaranya yaitu den-gan meng-gu-nakan pro-tokol VPN berba-
  []
 
-) (./content/Laporan-p5/content.tex [22]
+[22]) (./content/Laporan-p5/content.tex [23]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1023,7 +1033,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.37 \section{Topologi}
                        
-<image/P5/Topologi.png, id=390, 367.3725pt x 151.767pt>
+<image/P5/Topologi.png, id=394, 367.3725pt x 151.767pt>
 File: image/P5/Topologi.png Graphic file (type png)
 <use image/P5/Topologi.png>
 Package pdftex.def Info: image/P5/Topologi.png  used on input line 42.
@@ -1033,48 +1043,53 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.5}) ha
 <to be read again> 
                    \relax 
 l.48 \section{Langkah Percobaan}
-                                 [23 <./image/P5/Topologi.png>]
+                                 [24 <./image/P5/Topologi.png>]
+File: image/Winbox-interface.png Graphic file (type png)
+<use image/Winbox-interface.png>
+Package pdftex.def Info: image/Winbox-interface.png  used on input line 58.
+(pdftex.def)             Requested size: 318.66948pt x 265.03766pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \section{Hasil Percobaan}
+l.73 \section{Hasil Percobaan}
                               
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 \section{Kesimpulan}
+l.76 \section{Kesimpulan}
                          
-Overfull \hbox (14.08575pt too wide) in paragraph at lines 71--72
+Overfull \hbox (14.08575pt too wide) in paragraph at lines 78--79
 \OT1/cmr/m/n/12 IPv6 meru-pakan teknologi baru pengem-ban-gan dari IPv4 yang di-gu-nakan un-tuk menigkatkan
  []
 
-
+[25]
 pdfTeX warning (ext4): destination with the same identifier (name{section.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 \section{Tugas modul}
+l.80 \section{Tugas modul}
                           
-Overfull \hbox (2.7923pt too wide) in paragraph at lines 80--81
+Overfull \hbox (2.7923pt too wide) in paragraph at lines 87--88
 \OT1/cmr/m/n/12 babkan pe-nun-daan dalam pen-gi-r-i-man data. Be-ber-apa fak-tor yang da-pat menye-
  []
 
-[24]) [25] [26] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
+[26]) [27] (./Kelompok 13_Laporan Praktikum Jarkom.aux)
 Package rerunfilecheck Info: File `"Kelompok 13_Laporan Praktikum Jarkom".out' has not changed.
 (rerunfilecheck)             Checksum: 1D1ECE33763A0F5D0B9304E670506F3F;4187.
  ) 
 Here is how much of TeX's memory you used:
- 28305 strings out of 476097
- 570894 string characters out of 5795135
- 1863845 words of memory out of 5000000
+ 28306 strings out of 476097
+ 570901 string characters out of 5795135
+ 1861845 words of memory out of 5000000
  47966 multiletter control sequences out of 15000+600000
  513966 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,6n,133p,1264b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (27 pages, 1826693 bytes).
+Output written on "Kelompok 13_Laporan Praktikum Jarkom.pdf" (28 pages, 1827572 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 188 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

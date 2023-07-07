@@ -47,6 +47,13 @@ berikut adalah topologi yang digunakan :
     \item Pada bagian Neighbour, check apakah ada IP 0000 identity mikrotik
     \item Reset mikrotik ke 0000
     \item Lalu tekan connect
+    
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{image/Winbox-interface.png}    
+        
+        figure.2 WinBox interface
+    \end{center}
+    
     \item Lakukan konfigurasi DHCP agar dapat terhubung dengan ISP, pilih menu IP \texttt{\text>} DHCP Client \texttt{\text>} (+) \texttt{\text>} Interface : ether 1 (yang terhubung pada ISP)
     \item Kemudian secara otomatis akan didapatkan IP dari ISP
     \item Lalu pilih menu IP \texttt{\text>} Firewall \texttt{\text>} NAT \texttt{\text>} Chain : srcnat, Out. Interface : ether 1
